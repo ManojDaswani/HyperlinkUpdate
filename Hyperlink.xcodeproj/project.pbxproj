@@ -13,6 +13,7 @@
 		1FBF2CB725533BCC00AE0BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF2CB525533BCC00AE0BF9 /* Main.storyboard */; };
 		1FBF2CB925533BCE00AE0BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF2CB825533BCE00AE0BF9 /* Assets.xcassets */; };
 		1FBF2CBC25533BCE00AE0BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF2CBA25533BCE00AE0BF9 /* LaunchScreen.storyboard */; };
+		1FBF2CC425533D1100AE0BF9 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF2CC325533D1100AE0BF9 /* NSAttributedStringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1FBF2CB825533BCE00AE0BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FBF2CBB25533BCE00AE0BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBF2CBD25533BCE00AE0BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBF2CC325533D1100AE0BF9 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1FBF2CAF25533BCC00AE0BF9 /* AppDelegate.swift */,
 				1FBF2CB125533BCC00AE0BF9 /* SceneDelegate.swift */,
 				1FBF2CB325533BCC00AE0BF9 /* ViewController.swift */,
+				1FBF2CC325533D1100AE0BF9 /* NSAttributedStringExtension.swift */,
 				1FBF2CB525533BCC00AE0BF9 /* Main.storyboard */,
 				1FBF2CB825533BCE00AE0BF9 /* Assets.xcassets */,
 				1FBF2CBA25533BCE00AE0BF9 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				1FBF2CB425533BCC00AE0BF9 /* ViewController.swift in Sources */,
 				1FBF2CB025533BCC00AE0BF9 /* AppDelegate.swift in Sources */,
 				1FBF2CB225533BCC00AE0BF9 /* SceneDelegate.swift in Sources */,
+				1FBF2CC425533D1100AE0BF9 /* NSAttributedStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
