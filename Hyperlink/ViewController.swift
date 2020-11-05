@@ -8,9 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
     @IBOutlet weak var textView: UITextView!
-    
+    var text: String!
+    var font: UIFont?
+    var textColor: UIColor?
+
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
@@ -22,7 +28,6 @@ class ViewController: UIViewController {
         let text = textView?.text ?? ""
         let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "Terms of Service")
         let font = textView.font
-        textView.font = .preferredFont(forTextStyle: .body)
         let textColor = textView.textColor
         textView?.attributedText = attributedString
         textView.font = font
