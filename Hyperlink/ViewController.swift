@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         
     }
 
+    //updated
     func updateTextView() {
         let path = "https://wordpress.com/tos"
         let text = textView?.text ?? ""
