@@ -4,7 +4,7 @@
 //
 //  Created by Manoj Daswani on 5/11/20.
 
-// Term of Privacy
+// Terms of Service
 
 import UIKit
 
