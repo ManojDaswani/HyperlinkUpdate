@@ -3,9 +3,11 @@
 //  Hyperlink
 //
 //  Created by Manoj Daswani on 5/11/20.
-//
+
+// Term of Privacy
 
 import UIKit
+
 
 class ViewController: UIViewController {
     
@@ -14,8 +16,7 @@ class ViewController: UIViewController {
     var text: String!
     var font: UIFont?
     var textColor: UIColor?
-
-
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,7 @@ class ViewController: UIViewController {
         textView.textColor = textColor
         
     }
+  
 }
 
 
